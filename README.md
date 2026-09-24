@@ -22,8 +22,10 @@ Every consumer of this book owes harvests back here (honesty box):
 | `mssql-instance-health-collect` | Portable instance health SQL pack |
 | `mssql-post-move-health` | Post-move / path-change smoke + VERIFYONLY |
 | `mssql-disk-mount-layout-report` | IT report: paths, jobs, mount free space |
-| `mssql-deadlock-triage` | Generic deadlock 1205 evidence checklist |
+| `mssql-deadlock-triage` | Generic deadlock 1205 and sign-flip hung-delete evidence checklist |
 | `mssql-cost-capacity-review` | Instance/edition/storage cost drivers |
+| `mssql-discover-registered-host` | Find and verify MSSQL on a registered Windows host |
+| `mssql-agent-jobs-inventory` | Inventory SQL Agent jobs: enabled flag, schedules, last run |
 
 ## Config
 
