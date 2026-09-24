@@ -1,0 +1,26 @@
+{
+  "jumpBox": "optional-jump-host-label",
+  "instances": [
+    {
+      "id": "prod",
+      "server": "HOST_OR_IP",
+      "instance": "MSSQLSERVER",
+      "dataRoot": "D:\\\\SQLData",
+      "logRoot": "E:\\\\SQLLogs",
+      "backupRoot": "E:\\\\SQLBackup",
+      "recoveryModelDefault": "FULL",
+      "tier": "production"
+    },
+    {
+      "id": "dev",
+      "server": "HOST_OR_IP",
+      "instance": "DEV",
+      "dataRoot": "F:\\\\inst\\\\data",
+      "logRoot": "G:\\\\inst\\\\log",
+      "backupRoot": "G:\\\\inst\\\\Backup",
+      "recoveryModelDefault": "SIMPLE",
+      "tier": "nonprod"
+    }
+  ],
+  "retention": { "bakDays": 14, "trnDays": 3 }
+}
